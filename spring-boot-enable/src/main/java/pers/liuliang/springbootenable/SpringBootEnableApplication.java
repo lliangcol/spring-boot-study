@@ -3,10 +3,12 @@ package pers.liuliang.springbootenable;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
 import pers.liuliang.springboottest.config.EnableUserService;
 import pers.liuliang.springboottest.service.UserService;
+import redis.clients.jedis.Jedis;
 
 /**
  * ComponentScan 扫描范围是当前包及其子包
@@ -28,5 +30,13 @@ public class SpringBootEnableApplication {
         UserService userService = (UserService) context.getBean(UserService.class);
         System.out.println(userService);
         userService.add();
+
+        Jedis jedis = context.getBean(Jedis.class);
+        System.out.println(jedis);
+    }
+
+    @Bean
+    public Jedis jedis() {
+        return new Jedis("localhost", 6379);
     }
 }

@@ -10,6 +10,8 @@
         <module name="spring-boot-redis" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-condition" />
+        <module name="redis-spring-boot-starter" />
+        <module name="redis-spring-boot-autoconfigure" />
         <module name="spring-boot-test" />
         <module name="spring-boot-import" />
         <module name="spring-boot-hello" />
