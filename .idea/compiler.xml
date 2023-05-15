@@ -11,6 +11,7 @@
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-condition" />
         <module name="spring-boot-test" />
+        <module name="spring-boot-import" />
         <module name="spring-boot-hello" />
         <module name="spring-boot-enable" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-enable" options="-parameters" />
       <module name="spring-boot-hello" options="-parameters" />
+      <module name="spring-boot-import" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-test" options="-parameters" />

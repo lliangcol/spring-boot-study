@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-condition/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-enable/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-import/pom.xml" />
       </list>
     </option>
   </component>
