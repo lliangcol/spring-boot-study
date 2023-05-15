@@ -1,0 +1,7 @@
+spring:
+  data:
+    redis:
+      host: "r-8vbjb2wd5z2i5uw2eqpd.redis.zhangbei.rds.aliyuncs.com"
+      port: 16379
+      password: "testinternal:testinternal@13911881801"
+      database: 2
